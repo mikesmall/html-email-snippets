@@ -1,0 +1,30 @@
+<!-- This goes inside the email's <head> section -->
+<script type="application/ld+json">
+  [{
+    "@context": "http://schema.org/",
+    "@type": "Organization",
+    // Use a square PNG or JPG, with an HTTPS URL.
+    // Gmail will crop it into a circle.
+    "logo": "https://#"
+  },{
+    "@context": "http://schema.org/",
+    "@type": "EmailMessage",
+    "subjectLine": "Alternate email subject line (future tab feature)"
+  },{
+    "@context": "http://schema.org/",
+    "@type": "DiscountOffer",
+    // Discount description (small badge)
+    "description": "25% off! etc.",
+    // Discount code
+    "discountCode": "MikeRules",
+    // Don't forget to adjust the dates/times:
+    "availabilityStarts": "2019-12-25T11:05:32-07:00",
+    "availabilityEnds": "2020-04-12T11:05:32-07:00"
+  },{
+    // Use a 538x138 pixel PNG or JPG, with an HTTPS URL.
+    // Gmail will round the corners slightly.
+    "@context": "http://schema.org/",
+    "@type": "PromotionCard",
+    "image": "https://#"
+  }]
+</script>
